@@ -1,0 +1,6 @@
+pipeline:
+  name: myFrontEndService
+  identifier: myFrontEndService
+  projectIdentifier: default_project
+  orgIdentifier: default
+  tags: {}
