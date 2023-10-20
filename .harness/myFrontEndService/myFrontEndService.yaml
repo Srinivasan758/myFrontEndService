@@ -4,3 +4,15 @@ pipeline:
   projectIdentifier: default_project
   orgIdentifier: default
   tags: {}
+  stages:
+    - stage:
+        name: Test
+        identifier: Test
+        description: ""
+        type: Pipeline
+        spec:
+          org: default
+          pipeline: TestMail
+          project: default_project
+          inputSetReferences:
+            - Email
